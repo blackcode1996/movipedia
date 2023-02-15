@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./authentication.css">
+</head>
+<body>
+    <div class="container">
+        <main class="signup-container">
+          <p class="text-mute" style="color: red;">START FOR FREE</p>
+          <h1 class="heading-primary">Create new account<span class="custom-dot">.</span></h1>
+          <p class="text-mute" style="color: red;">Already A Member? <a href="./login.html">Log in</a></p>
+          <div class="signup-form">
+            <div class="f-row input-wrapper">
+              <label class="inp">
+                <input type="text" class="input-text" placeholder="&nbsp;" id="name">
+                <span class="label">First name</span>
+                <span class="input-icon"><i class="fa-solid fa-address-card"></i></span>
+              </label>
+              <label class="inp">
+                <input type="text" class="input-text" placeholder="&nbsp;">
+                <span class="label">Last name</span>
+                <span class="input-icon"><i class="fa-solid fa-address-card"></i></span>
+              </label>
+            </div>
+            <label class="inp">
+              <input type="email" class="input-text" placeholder="&nbsp;" id="email">
+              <span class="label">Email</span>
+              <span class="input-icon"><i class="fa-solid fa-envelope"></i></span>
+            </label>
+            <label class="inp">
+              <input type="password" class="input-text" placeholder="&nbsp;" id="password">
+              <span class="label">Password</span>
+              <span class="input-icon input-icon-password" data-password><i class="fa-solid fa-eye"></i></span>
+            </label>
+            <label class="inp">
+                <input type="text" class="input-text" placeholder="&nbsp;" id="username">
+                <span class="label">Username</span>
+                <span class="input-icon input-icon-password" data-password><i class="fa-solid fa-eye"></i></span>
+              </label>
+              <label class="inp">
+                <input type="number" class="input-text" placeholder="&nbsp;" id="mobile">
+                <span class="label">Mobile</span>
+                <span class="input-icon input-icon-password" data-password><i class="fa-solid fa-eye"></i></span>
+              </label>
+              <label class="inp">
+                <input type="text" class="input-text" placeholder="&nbsp;" id="description">
+                <span class="label">Description</span>
+                <span class="input-icon input-icon-password" data-password><i class="fa-solid fa-eye"></i></span>
+              </label>
+            <button class="btn btn-signup" id="button" onclick="Register()">Create account</button>
+            </div>
+        </main>
+        <div class="welcome-container">
+          <h1 class="heading-secondary">Welcome to <span class="lg">Khanna-kazana Buddy!</span></h1>
+          <img id="movie-image">
+        </div>
+      </div>
+</body>
+</html>
+   
+<script src="./authentication.js"></script>
+</body>
+</html>

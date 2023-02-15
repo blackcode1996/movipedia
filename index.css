@@ -1,0 +1,227 @@
+html{
+    background-color:#020206;
+}
+
+#navbar{
+    background-color: aqua;
+    font-family: cursive;
+    display: inline-flex;
+    width: 100%;
+    gap: 30px;
+    height: 100px;
+}
+/* #search{
+    display: flex;
+    height: 70px;
+    width: 270px;
+    border: 0px solid red;
+    text-align: center;
+    margin-left: 1000px;
+} */
+
+/* cross making */
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-right: 20px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.5s;
+    margin-left: 20px;
+  }
+  .change .bar1{
+        transform: translate(0, 11px) rotate(-45deg);
+    }
+  
+  .change .bar2 {
+    opacity: 0;
+    }
+  
+  .change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+  
+/* end of cross making */
+
+/* css for menu  */
+#menu{
+    height: 475%;
+    width: 100%;
+    border: 0px solid red;
+    position: relative;
+    background-color: yellowgreen;
+    margin-top: 10PX;
+    margin-left: 30PX;
+    border-radius: 20px;
+    display: none;
+}
+#menu>div>h2{
+    text-align: center;
+    gap: 20px;
+
+}
+hr{
+    color: #333;
+}
+/* End of menu */
+#search{
+    height: 100px;
+    border: 0PX solid red;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: aqua;
+    /* box-shadow: 0px 1px 5ps 3ps rgba(0,0,0,0.12); */
+
+}
+#show_search_result{
+    /* padding: 10px 8px; */
+    /* max-height: 280px; */
+    overflow-y: visible;
+    pointer-events: none;
+    position: relative;
+    height: 800px;
+    margin-top: 30px;
+    width: 450px;
+    border: 0px solid red;
+}
+#show_search_result>div{
+    height:15%;
+    width: 100%;
+    border: 0px sold blueviolet;
+    /* margin: auto; */
+    background-color:yellowgreen;
+    text-align: left;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#show_search_result>div>img{
+    height: 100px;
+    width: 50%;
+    margin-left: 45%;
+    margin-top: 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#show_search_result>div>h4{
+    /* height: 15px; */
+    /* font-family: cursive; */
+    font-size: small;
+    margin-top: -60px;
+    border: 0px solid red;
+    height: 40px;
+    width: 40%;
+    
+}
+input{
+    /* margin-top: 30px;
+    margin-left: 10px; */
+    height: 25px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 15px;
+}
+#slider>img{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    border-radius: 5px;
+}
+#data_body{
+    text-align: center;
+}
+#loader{
+    height: 400px;
+    width: 300%;
+}
+#data_body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    font-family: cursive;
+    color: aliceblue;
+}
+#data_body>div{
+    margin: auto;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#data_body>div>img{
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+#sorting{
+    width: 100%;
+    height: 60px;
+    border: 0px solid red;
+    display: flex;
+}
+#sorting>button{
+    font-family: cursive;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#sorting>button:hover{
+    background-color: azure;
+    padding: 15px;
+}
+#LtoH{
+    margin-left: 1250px;
+}
+#footer{
+    color: black;
+    background-color: aqua;
+    font-family: cursive;
+    font-size: 20px;
+}
+#footertop{
+    display: flex;
+    align-items: flex-end;
+   justify-content: space-between;
+}
+#text{
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+#icon{
+    font-size: 40px;
+}
+#icon>i{
+    margin-left: 80px;
+    margin-right: 20px;
+}
+#strip{
+    height: 20px;
+    width: 100%;
+    border: 0px solid red;
+    background-color:#d1242a;
+}
+#download{
+    text-align: center;
+}
+#shareimage{
+    text-align: center;
+}
+#showname{
+    margin: auto;
+    margin-left: 20px;
+    color: gray
+}
+
